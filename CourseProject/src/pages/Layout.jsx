@@ -4,17 +4,20 @@ function Layout() {
 	return (
 		<>
 			<nav>
-				<ul>
-					<li>
-						<Link to="/">Home</Link>
-					</li>
-					<li>
-						<Link to="/MakingPage">Making of</Link>
-					</li>
-					<li>
-						<Link to="/ProjectPage">Sprookje</Link>
-					</li>
-				</ul>
+				<div className="navigation">
+					<img src="./assets/logo.png" to="/Homepage" />
+					<ul id="nav">
+						<li>
+							<Link to="/">Home</Link>
+						</li>
+						<li>
+							<Link to="/MakingPage">Making of</Link>
+						</li>
+						<li>
+							<Link to="/ProjectPage">Sprookje</Link>
+						</li>
+					</ul>
+				</div>
 			</nav>
 			<Outlet />
 		</>

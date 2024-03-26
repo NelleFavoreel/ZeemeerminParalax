@@ -12,7 +12,6 @@ import Layout from "./pages/Layout";
 function App() {
 	return (
 		<>
-			<h1>Hallo welkom</h1>
 			<BrowserRouter basename="/">
 				<Routes>
 					<Route path="/" element={<Layout />}>
