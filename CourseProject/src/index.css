@@ -56,10 +56,16 @@ button:focus-visible {
 	display: flex;
 	flex-direction: row;
 	margin-right: 10%;
+	margin-top: 40px;
+}
+.logo {
+	width: 10%;
+	margin-top: -30px;
+	margin-left: 150px;
 }
 .navigation {
 	display: flex;
-	align-items: center;
+	align-items: flex-start;
 	justify-content: space-between;
 }
 @media (prefers-color-scheme: light) {

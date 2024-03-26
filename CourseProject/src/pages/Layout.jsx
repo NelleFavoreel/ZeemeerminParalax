@@ -1,11 +1,12 @@
 import { Outlet, Link } from "react-router-dom";
+import Logo from "../assets/logo.png";
 
 function Layout() {
 	return (
 		<>
 			<nav>
 				<div className="navigation">
-					<img src="./assets/logo.png" to="/Homepage" />
+					<img className="logo" src={Logo} alt="logo" />
 					<ul id="nav">
 						<li>
 							<Link to="/">Home</Link>

@@ -4,7 +4,7 @@ function MakingPage() {
 	return (
 		<div>
 			<div className="makingOf">
-				<div>
+				<div className="makingOfText">
 					<h1>Making of</h1>
 					<h2>Project Sneeuwwitje</h2>
 					<p>
@@ -18,9 +18,14 @@ function MakingPage() {
 						Naam
 					</h2>
 				</div>
-				<div>
+				<div className="pictureMakingOf">
+					<h1></h1>
 					<img src="./" alt="" />
 				</div>
+			</div>
+			<div className="video">
+				<h1>Video</h1>
+				<h2>Komt nog</h2>
 			</div>
 			<div>
 				<div className="footer">
@@ -30,10 +35,10 @@ function MakingPage() {
 							<Link to="/">Home</Link>
 						</li>
 						<li>
-							<Link to="/ProjectPage">Sprookje</Link>
+							<Link to="/MakingPage">Making of</Link>
 						</li>
 						<li>
-							<Link to="/MakingPage">Making of</Link>
+							<Link to="/ProjectPage">Sprookje</Link>
 						</li>
 					</ul>
 				</div>
