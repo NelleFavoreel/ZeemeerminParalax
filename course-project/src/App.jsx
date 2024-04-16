@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./App.css";
+import "./Fairy.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 //import pages
