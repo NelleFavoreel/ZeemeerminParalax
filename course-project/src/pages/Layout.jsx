@@ -17,6 +17,9 @@ function Layout() {
 						<li>
 							<Link to="/ProjectPage">Sprookje</Link>
 						</li>
+						<li>
+							<Link to={"/MyProject"}>Mijn project</Link>
+						</li>
 					</ul>
 				</div>
 			</nav>
