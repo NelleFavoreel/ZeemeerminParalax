@@ -1,0 +1,9 @@
+.zeemeerminPicture {
+	width: 30%;
+}
+
+.flex {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}

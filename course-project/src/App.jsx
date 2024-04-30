@@ -21,8 +21,8 @@ function App() {
 						<Route path="makingPage" element={<MakingPage />} />
 						<Route path="navigation" element={<Navigation />} />
 						<Route path="projectPage" element={<ProjectPage />} />
-						<Route path="myProject" element={<MyProject />} />
 					</Route>
+					<Route path="myProject" element={<MyProject />} />
 				</Routes>
 			</BrowserRouter>
 		</>
