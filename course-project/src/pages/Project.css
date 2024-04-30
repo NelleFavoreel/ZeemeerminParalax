@@ -7,3 +7,30 @@
 	display: flex;
 	justify-content: center;
 }
+.fishpicture {
+	margin-top: -500px;
+}
+.fishpicture {
+	width: 20%;
+	height: 20%;
+}
+.cloudpicture {
+	width: 100%;
+	margin-top: 300px;
+}
+.boat {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.boat img {
+	width: 80%;
+}
+.mounten {
+	width: 100%;
+}
+.cloudpicture3 {
+	width: 20%;
+	height: 20%;
+}

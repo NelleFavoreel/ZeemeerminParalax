@@ -16,7 +16,7 @@ function Zeemeermin() {
 			},
 		}),
 		{
-			rootMargin: "0% 0% -60% 0%",
+			rootMargin: "50% 0% -30% 0%",
 		}
 	);
 
