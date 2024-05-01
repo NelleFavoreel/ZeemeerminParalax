@@ -6,6 +6,7 @@ import Mounten1 from "../assets/Eerste bergen.png";
 import Boat from "../assets/boot.png";
 import Fish from "../components/Fish";
 import Clouds from "../components/Clouds";
+import Prince from "../components/Prince";
 import "./Project.css";
 
 function MyProject() {
@@ -35,13 +36,16 @@ function MyProject() {
 					<img className="mounten" src={Mounten1} />
 				</div>
 			</ParallaxLayer>
-			<ParallaxLayer offset={2} speed={1} sticky={{ start: 2, end: 3 }}>
+			<ParallaxLayer offset={4} speed={0} sticky={{ start: 2, end: 3 }}>
 				<Clouds />
 			</ParallaxLayer>
 			<ParallaxLayer offset={2} sticky={{ start: 2, end: 3 }} speed={1}>
 				<div className="boat">
 					<img src={Boat} />
 				</div>
+			</ParallaxLayer>
+			<ParallaxLayer offset={2} sticky={{ start: 2, end: 3 }} speed={1}>
+				<Prince></Prince>
 			</ParallaxLayer>
 		</Parallax>
 	);
