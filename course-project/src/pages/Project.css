@@ -59,3 +59,24 @@
 .ZeemeerminRechts {
 	transform: rotate(90deg);
 }
+.heks {
+	width: 20px;
+}
+.heksText h1 {
+	font-size: 30px;
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
+}
+.MiddelText h1 {
+	font-size: 30px;
+	display: flex;
+	justify-content: center;
+}
+.bergen {
+	width: 100%;
+	background-color: bisque;
+}
+.girl {
+	width: 30%;
+}

@@ -6,10 +6,10 @@ function ZeemeerminRechts() {
 	const [refSlideIn, slideIn] = useInView(
 		() => ({
 			from: {
-				transform: "translateX(350%) translateY(-90%)",
+				transform: "translateX(300%) translateY(-90%)",
 			},
 			to: {
-				transform: "translateX(80%) translateY(20%)",
+				transform: "translateX(40%) translateY(140%)",
 			},
 			config: {
 				tension: 20,
