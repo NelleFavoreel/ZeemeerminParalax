@@ -1,7 +1,7 @@
 import React from "react";
 import { useInView, animated } from "@react-spring/web";
 
-function Text6() {
+function Text7() {
 	const [refSlideIn, slideIn] = useInView(() => ({
 		from: {
 			transform: "translateX(-90%)",
@@ -28,15 +28,15 @@ function Text6() {
 	}));
 
 	return (
-		<div className="MovingTextContainer">
+		<div className="MovingText">
 			<animated.h1 ref={refSlideIn} style={slideIn}>
-				Ariel kiest voor de benen waardoor ze mens kan worden maar wel zonder stem
+				Ze worden verliefd op elkaar
 			</animated.h1>
 			<animated.h1 ref={refSlideIn1} style={slideIn2}>
-				Ze gaat op zoek naar de prins...
+				Ariël staat voor een moeilijke keuze...
 			</animated.h1>
 		</div>
 	);
 }
 
-export default Text6;
+export default Text7;

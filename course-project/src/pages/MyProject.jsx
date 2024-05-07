@@ -14,13 +14,15 @@ import ZeemeerminRechts from "../components/ZeemeerminRechts";
 import Text4 from "../components/Text4";
 import Text5 from "../components/Text5";
 import Text6 from "../components/Text6";
+import Text7 from "../components/Text7";
 import "./Project.css";
-import Bergen from "../assets/bergen strand.png";
-import WalkingGirl from "../assets/meisje.png";
+import Landscape from "../components/Landscape";
+import WalkingPrince from "../components/WalkingPrince";
+import Text8 from "../components/Text8";
 
 function MyProject() {
 	return (
-		<Parallax pages={12} style={{ top: "0", left: "0" }}>
+		<Parallax pages={15} style={{ top: "0", left: "0" }}>
 			<ParallaxLayer offset={0} speed={0}>
 				<h1 className="title">De kleine zeemeermin</h1>
 			</ParallaxLayer>
@@ -79,11 +81,17 @@ function MyProject() {
 			<ParallaxLayer offset={8} speed={1}>
 				<Text6 />
 			</ParallaxLayer>
-			<ParallaxLayer offset={9} speed={1}>
-				<img className="bergen" src={Bergen} alt="Bergen en strand" />
+			<ParallaxLayer offset={9} sticky={{ start: 9, end: 10 }}>
+				<Landscape></Landscape>
 			</ParallaxLayer>
-			<ParallaxLayer offset={9} speed={2}>
-				<img className="girl" src={WalkingGirl} alt="Bergen en strand" />
+			<ParallaxLayer offset={9} sticky={{ start: 9, end: 11 }}>
+				<WalkingPrince></WalkingPrince>
+			</ParallaxLayer>
+			<ParallaxLayer offset={11} sticky={{ start: 12, end: 12 }}>
+				<Text7></Text7>
+			</ParallaxLayer>
+			<ParallaxLayer offset={12} sticky={{ start: 13, end: 15 }}>
+				<Text8></Text8>
 			</ParallaxLayer>
 		</Parallax>
 	);

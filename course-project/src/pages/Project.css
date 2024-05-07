@@ -46,11 +46,6 @@
 .background {
 	width: 100%;
 }
-.Strand {
-	background-color: bisque;
-	width: 400px;
-	height: 600px;
-}
 .textFlex h1 {
 	display: flex;
 	flex-direction: column;
@@ -75,8 +70,34 @@
 }
 .bergen {
 	width: 100%;
-	background-color: bisque;
 }
 .girl {
-	width: 30%;
+	width: 40%;
+	margin-top: 300px;
+}
+.prince {
+	width: 40%;
+	margin-top: 300px;
+}
+.MovingText {
+	padding-top: 10%;
+	display: flex;
+	flex-direction: column;
+}
+.MovingText h1 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.MovingTextContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.MovingTextContainer h1 {
+	font-size: 45px;
+}
+.MovingText {
+	text-align: center; /* Hiermee worden de teksten in het midden van de container uitgelijnd */
 }
