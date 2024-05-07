@@ -47,8 +47,8 @@ function Clouds() {
 				transform: "scale(170%)",
 			},
 			config: {
-				tension: 10,
-				friction: 10,
+				tension: 50,
+				friction: 40,
 			},
 		}),
 		{

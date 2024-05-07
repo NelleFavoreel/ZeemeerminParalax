@@ -5,12 +5,10 @@ function Fish() {
 	const [refSlideIn, slideIn] = useInView(
 		() => ({
 			from: {
-				transform: "translateX(-150%)",
-				transform: "translateY(-200%)",
+				transform: "translateX(-150%) translateY(-200%)",
 			},
 			to: {
-				transform: "translateX(100%)",
-				transform: "translateY(100%)",
+				transform: "translateX(100%) translateY(100%)",
 			},
 			config: {
 				tension: 20,

@@ -1,5 +1,6 @@
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import Background from "../assets/koraal.png";
+import BackgroundHeks from "../assets/koraal2.png";
 import Zeemeermin from "../components/Zeemeermin";
 import Mounten from "../assets/tweede bergen.png";
 import Mounten1 from "../assets/Eerste bergen.png";
@@ -7,6 +8,10 @@ import Boat from "../assets/boot.png";
 import Fish from "../components/Fish";
 import Clouds from "../components/Clouds";
 import Prince from "../components/Prince";
+import MovingBackground from "../components/background";
+import SwimmingZeemeermin from "../components/SwimmingZeemeermin";
+import ZeemeerminRechts from "../components/ZeemeerminRechts";
+import Text4 from "../components/Text4";
 import "./Project.css";
 
 function MyProject() {
@@ -46,6 +51,23 @@ function MyProject() {
 			</ParallaxLayer>
 			<ParallaxLayer offset={2} sticky={{ start: 2, end: 3 }} speed={1}>
 				<Prince></Prince>
+			</ParallaxLayer>
+			<ParallaxLayer offset={4} speed={1}>
+				<SwimmingZeemeermin />
+			</ParallaxLayer>
+			<ParallaxLayer className="Strand" offset={4} speed={0.1}>
+				<MovingBackground />
+			</ParallaxLayer>
+			<ParallaxLayer offset={5} speed={1}>
+				<Text4 />
+			</ParallaxLayer>
+			<ParallaxLayer offset={6} sticky={{ start: 6, end: 8 }} speed={0.1}>
+				<div className="animation-layer" id="parallax-01">
+					<img src={BackgroundHeks} />
+				</div>
+			</ParallaxLayer>
+			<ParallaxLayer offset={6} sticky={{ start: 6, end: 8 }} speed={0.1}>
+				<ZeemeerminRechts />
 			</ParallaxLayer>
 		</Parallax>
 	);
