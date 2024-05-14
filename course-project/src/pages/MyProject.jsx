@@ -19,6 +19,7 @@ import "./Project.css";
 import Landscape from "../components/Landscape";
 import WalkingPrince from "../components/WalkingPrince";
 import Text8 from "../components/Text8";
+import Text3 from "../components/Text3";
 
 function MyProject() {
 	return (
@@ -58,13 +59,16 @@ function MyProject() {
 			<ParallaxLayer offset={2} sticky={{ start: 2, end: 3 }} speed={1}>
 				<Prince></Prince>
 			</ParallaxLayer>
-			<ParallaxLayer offset={4} speed={1}>
+			<ParallaxLayer offset={6} speed={1} sticky={{ start: 4, end: 4 }} style={{ zIndex: 2 }}>
+				<Text3 />
+			</ParallaxLayer>
+			<ParallaxLayer offset={4} sticky={{ start: 5, end: 5 }} speed={1} style={{ zIndex: 1 }}>
 				<SwimmingZeemeermin />
 			</ParallaxLayer>
-			<ParallaxLayer className="Strand" offset={4} speed={0.1}>
+			<ParallaxLayer className="Strand" sticky={{ start: 4, end: 5 }} offset={4} speed={0.1} style={{ zIndex: 0 }}>
 				<MovingBackground />
 			</ParallaxLayer>
-			<ParallaxLayer offset={5} speed={1}>
+			<ParallaxLayer offset={6} speed={1} sticky={{ start: 5, end: 5 }} style={{ zIndex: 2 }}>
 				<Text4 />
 			</ParallaxLayer>
 			<ParallaxLayer offset={6} sticky={{ start: 6, end: 7 }} speed={0.1}>
@@ -78,7 +82,7 @@ function MyProject() {
 			<ParallaxLayer offset={6} sticky={{ start: 6, end: 7 }} speed={0.1}>
 				<Text5 />
 			</ParallaxLayer>
-			<ParallaxLayer offset={8} speed={1}>
+			<ParallaxLayer offset={8} sticky={{ start: 8, end: 8 }} speed={1}>
 				<Text6 />
 			</ParallaxLayer>
 			<ParallaxLayer offset={9} sticky={{ start: 9, end: 10 }}>

@@ -101,3 +101,22 @@
 .MovingText {
 	text-align: center; /* Hiermee worden de teksten in het midden van de container uitgelijnd */
 }
+.background-container {
+	background-color: antiquewhite;
+	width: 420px;
+	height: 900px;
+}
+.Strand {
+	display: flex;
+	justify-content: flex-end;
+}
+.textFlex {
+	margin-top: 500px;
+}
+.MovingTextContainer {
+	margin-top: 300px;
+}
+.walkingprince {
+	width: 40%;
+	margin-top: 300px;
+}

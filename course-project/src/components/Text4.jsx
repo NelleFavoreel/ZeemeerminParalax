@@ -39,7 +39,7 @@ function Text4() {
 
 	return (
 		<div className="textFlex">
-			<animated.h1 ref={refSlideIn} style={slideIn}>
+			<animated.h1 ref={refSlideIn1} style={slideIn2}>
 				Ariel wordt smoorverliefd op de prins
 			</animated.h1>
 			<animated.h1 ref={refSlideIn1} style={slideIn2}>
