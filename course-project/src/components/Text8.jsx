@@ -1,7 +1,13 @@
-import React from "react";
-import { useInView, animated } from "@react-spring/web";
+import React, { useState } from "react";
+import { useInView, animated, useSpring } from "@react-spring/web";
+import walkingGirl from "../assets/meisje.png";
+import vis from "../assets/vis2.png";
+import vis2 from "../assets/vis3.png";
+import prince from "../assets/land prins.png";
 
 function Text8() {
+	const [direction, setDirection] = useState("center");
+
 	const [refSlideIn1, slideIn1] = useInView({
 		triggerOnce: true,
 		rootMargin: "-50% 0px",
@@ -10,6 +16,11 @@ function Text8() {
 	const [refSlideIn2, slideIn2] = useInView({
 		triggerOnce: true,
 		rootMargin: "-50% 0px",
+	});
+
+	const girlSpring = useSpring({
+		transform: direction === "left" ? "translateX(-50%)" : direction === "right" ? "translateX(50%)" : "translateX(0%)",
+		config: { tension: 200, friction: 20 },
 	});
 
 	return (
@@ -24,6 +35,19 @@ function Text8() {
 				<animated.h1 ref={refSlideIn2} style={{ ...slideIn2 }}>
 					Wat kies jij?
 				</animated.h1>
+				<div className="buttonClass">
+					<button onClick={() => setDirection("left")}>Terug naar de zee</button>
+					<button onClick={() => setDirection("right")}>Trouwen met de prins</button>
+				</div>
+				<animated.img className="walkingGirl" src={walkingGirl} alt="Walking Girl" style={{ ...girlSpring, position: "absolute" }} />
+				<div className="endPicture">
+					<div>
+						<img className="visPicture" src={vis} alt="" />
+						<img className="visPicture" src={vis2} alt="" />
+					</div>
+
+					<img className="princePicture" src={prince} alt="" />
+				</div>
 			</div>
 		</div>
 	);
