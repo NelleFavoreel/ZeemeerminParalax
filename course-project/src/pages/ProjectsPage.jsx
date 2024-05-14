@@ -1,11 +1,11 @@
-import FairyItem from "./FairyItem";
+import React from "react";
+import SearchBar from "../components/SearchBar";
 
 function ProjectPage() {
 	return (
 		<div className="projectPage">
 			<div className="sortProject">
-				<input type="text" placeholder="Zoek sprookje" id="" />
-				<h2>Categroie</h2>
+				<h2>Categorie</h2>
 				<button>Horror</button>
 				<button>Kind vriendelijk</button>
 				<button>Gebroeders Grim</button>
@@ -18,15 +18,7 @@ function ProjectPage() {
 				<button>Hoogste</button>
 				<button>Laagste</button>
 			</div>
-			<div>
-				<ul className="fairyItem">
-					<FairyItem></FairyItem>
-					<FairyItem></FairyItem>
-					<FairyItem></FairyItem>
-					<FairyItem></FairyItem>
-					<FairyItem></FairyItem>
-				</ul>
-			</div>
+			<SearchBar />
 		</div>
 	);
 }
