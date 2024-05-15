@@ -18,7 +18,7 @@ function SearchBar() {
 			<input className="SearchBar" type="text" placeholder="Zoek sprookje" value={searchTerm} onChange={handleSearch} />
 			<ul className="fairyItem">
 				{filteredData.map((item, index) => (
-					<FairyItem key={index} student={item.Student} beschrijving={item["Beschrijving project"]} />
+					<FairyItem key={index} student={item.Student} beschrijving={item["Beschrijving project"]} link={item["Link sprookjessite"]} />
 				))}
 			</ul>
 		</div>

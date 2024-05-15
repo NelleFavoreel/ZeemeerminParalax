@@ -1,26 +1,23 @@
 import { Outlet, Link } from "react-router-dom";
-
+import picture from "../assets/BeginPicture.jpg";
 function MakingPage() {
 	return (
 		<div>
 			<div className="makingOf">
 				<div className="makingOfText">
 					<h1>Making of</h1>
-					<h2>Project Sneeuwwitje</h2>
+					<h2>Project De kleine zeemeermin</h2>
 					<p>
-						Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Lorem ipsum dolor sit amet,
-						consectetuer adipiscing elit, sed diam Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-						diam Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam Lorem ipsum dolor sit amet,
-						consectetuer adipiscing elit, sed diam Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam f
+						Voor het vak frontend moeten we een website maken, inclusief een website over een sprookje. Ik heb gekozen voor het sprookje De Kleine Zeemeermin. Ik vond dit sprookje altijd al erg leuk, en ik vind de onderwaterwereld altijd heel
+						interessant.
 					</p>
 					<h2>
 						By <br />
-						Naam
+						Nelle Favoreel
 					</h2>
 				</div>
 				<div className="pictureMakingOf">
-					<h1></h1>
-					<img src="./" alt="" />
+					<img className="beginPicture" src={picture} alt="" />
 				</div>
 			</div>
 			<div className="video">

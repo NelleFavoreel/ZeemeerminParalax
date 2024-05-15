@@ -1,5 +1,4 @@
 a {
-	color: #4f836b;
 	text-decoration: none;
 }
 
@@ -22,7 +21,8 @@ h1 {
 button {
 	border-radius: 8px;
 	border: 1px solid transparent;
-	padding: 0.6em 1.2em;
+	padding-left: 20px;
+	padding-right: 20px;
 	font-size: 1em;
 	font-weight: 500;
 	font-family: inherit;
@@ -45,7 +45,6 @@ button:focus-visible {
 }
 .logo {
 	width: 10%;
-	margin-top: -30px;
 	margin-left: 150px;
 }
 .navigation {

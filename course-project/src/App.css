@@ -1,3 +1,16 @@
+a,
+h2 {
+	font-family: "Dancing Script", cursive;
+	color: #ae0018;
+}
+p,
+h3,
+h1 {
+	font-family: "Open Sans", sans-serif;
+}
+body {
+	background-image: url("../src/assets/mainBackground.png");
+}
 /* Homepage css*/
 .search {
 	display: flex;
@@ -13,6 +26,7 @@
 }
 .button {
 	background-color: #4f836b;
+	font-family: "Open Sans", sans-serif;
 	border-radius: 30px;
 	color: white;
 }
@@ -21,6 +35,7 @@
 	border-radius: 30px;
 	color: white;
 	padding: 10px 20px;
+	font-family: "Open Sans", sans-serif;
 }
 .search input {
 	width: 300px;
@@ -68,7 +83,6 @@
 	margin-right: 30px;
 }
 .pictureMakingOf {
-	background-color: black;
 	width: 50%;
 }
 .video {
@@ -77,13 +91,16 @@
 	align-items: center;
 	margin-top: 100px;
 }
+.beginPicture {
+	width: 100%;
+}
 
 /* Fairy page css*/
 
 .fairyItem {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-evenly;
+	justify-content: center;
 }
 .itemDetail {
 	display: flex;
@@ -91,7 +108,7 @@
 	align-items: center;
 }
 .box img {
-	width: 250px;
+	width: 380px;
 	background-color: black;
 	border-radius: 20px;
 	margin-bottom: 20px;
@@ -110,11 +127,16 @@
 	flex-direction: column;
 	align-items: flex-start;
 	margin-left: 20px;
-	margin-top: 50px;
+	margin-top: 90px;
 	align-items: stretch;
 }
 .sortProject button {
-	background-color: white;
+	background-color: #d4d4d4;
+	margin-top: 20px;
+	width: 190px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: flex;
 }
 .sortProject h2 {
 	color: #ae0018;
@@ -127,5 +149,19 @@
 	padding: 10px;
 	background-color: #e5e5e5;
 	border: 0px;
-	margin-left: -7%;
+	margin-left: -200px;
+	margin-top: 30px;
+}
+/* Slideshow Styles */
+
+.carousel .legend {
+	background: rgba(0, 0, 0, 0.5);
+	color: white;
+	padding: 10px;
+}
+.homeCarousel {
+	height: 800px;
+}
+.carousel {
+	margin-bottom: 70px;
 }

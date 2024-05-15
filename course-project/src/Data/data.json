@@ -12,7 +12,8 @@
 	{
 		"Student": "Youssef Auassar",
 		"Link sprookjessite": null,
-		"Beschrijving project": null
+		"Beschrijving project": null,
+		"popular": true
 	},
 	{
 		"Student": "Maxime Bastien",
@@ -27,7 +28,8 @@
 	{
 		"Student": "Jonathan Bruffaerts",
 		"Link sprookjessite": null,
-		"Beschrijving project": null
+		"Beschrijving project": null,
+		"popular": true
 	},
 	{
 		"Student": "Mikolaj Buelens",
@@ -37,7 +39,8 @@
 	{
 		"Student": "Robbe De Clerck",
 		"Link sprookjessite": "https://github.com/EHB-MCT/frontend-courseproject-RobbeDeClerck",
-		"Beschrijving project": null
+		"Beschrijving project": null,
+		"popular": true
 	},
 	{
 		"Student": "Zani Dobruna",
@@ -52,7 +55,8 @@
 	{
 		"Student": "Nelle Favoreel",
 		"Link sprookjessite": "https://scaling-adventure-yrzmqkw.pages.github.io/",
-		"Beschrijving project": "De kleine zeemeermin"
+		"Beschrijving project": "De kleine zeemeermin",
+		"popular": true
 	},
 	{
 		"Student": "Ines Frederickx",
@@ -67,7 +71,8 @@
 	{
 		"Student": "Rémy Gistelinck",
 		"Link sprookjessite": "https://symmetrical-invention-lnjqp56.pages.github.io/",
-		"Beschrijving project": null
+		"Beschrijving project": null,
+		"popular": true
 	},
 	{
 		"Student": "Taha Hasan",

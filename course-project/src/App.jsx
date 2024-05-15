@@ -2,6 +2,8 @@ import { useState } from "react";
 import "./App.css";
 import "./Fairy.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+<link rel="preconnect" href="https://fonts.googleapis.com"></link>;
+<link rel="preconnect" href="https://fonts.googleapis.com"></link>;
 
 //import pages
 import HomePage from "./pages/Homepage";

@@ -7,10 +7,9 @@ function ProjectPage() {
 			<div className="sortProject">
 				<h2>Categorie</h2>
 				<button>Horror</button>
-				<button>Kind vriendelijk</button>
+				<button>Kindvriendelijk</button>
 				<button>Gebroeders Grim</button>
 				<button>Griekse verhalen</button>
-				<button>Kind vriendelijk</button>
 				<h2>Sorteren op</h2>
 				<button>Nieuwste</button>
 				<button>Oudste</button>

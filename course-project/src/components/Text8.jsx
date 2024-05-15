@@ -46,7 +46,7 @@ function Text8() {
 						<img className="visPicture" src={vis2} alt="" />
 					</div>
 
-					<img className="princePicture" src={prince} alt="" />
+					<img className="PrincePicture" src={prince} alt="" />
 				</div>
 			</div>
 		</div>
