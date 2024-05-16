@@ -7,7 +7,12 @@ function Home() {
 		<div>
 			<div className="search">
 				<input type="text" placeholder="Zoek hier topic" />
-				<h3>Categorie</h3>
+				<div className="categorie">
+					<h3>Categorie</h3>
+					<span class="material-symbols-outlined">arrow_forward_ios</span>
+					<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+				</div>
+
 				<button className="button">Zoek</button>
 			</div>
 			<div className="slideshow">

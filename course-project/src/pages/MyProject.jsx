@@ -23,15 +23,16 @@ import Text3 from "../components/Text3";
 
 function MyProject() {
 	return (
-		<Parallax pages={13} style={{ top: "0", left: "0" }}>
+		<Parallax className="parallax" pages={13} style={{ top: "0", left: "0" }}>
 			<ParallaxLayer offset={0} speed={0}>
 				<h1 className="title">De kleine zeemeermin</h1>
 			</ParallaxLayer>
 			<ParallaxLayer offset={0} sticky={{ start: 0, end: 1 }} speed={1}>
-				<div className="animation-layer" id="parallax-01">
+				<div className="animation-layer" id="parallax-02">
 					<img src={Background} />
 				</div>
 			</ParallaxLayer>
+
 			<ParallaxLayer offset={1} speed={0.1}>
 				<Zeemeermin />
 			</ParallaxLayer>
@@ -65,7 +66,7 @@ function MyProject() {
 			<ParallaxLayer offset={4} sticky={{ start: 5, end: 5 }} speed={1} style={{ zIndex: 1 }}>
 				<SwimmingZeemeermin />
 			</ParallaxLayer>
-			<ParallaxLayer className="Strand" sticky={{ start: 4, end: 5 }} offset={4} speed={0.1} style={{ zIndex: 0 }}>
+			<ParallaxLayer sticky={{ start: 4, end: 5 }} offset={4} speed={0.1} style={{ zIndex: 0 }}>
 				<MovingBackground />
 			</ParallaxLayer>
 			<ParallaxLayer offset={6} speed={1} sticky={{ start: 5, end: 5 }} style={{ zIndex: 2 }}>

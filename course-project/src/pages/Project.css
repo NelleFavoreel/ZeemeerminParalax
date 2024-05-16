@@ -103,8 +103,13 @@
 }
 .background-container {
 	background-color: antiquewhite;
-	width: 420px;
-	height: 900px;
+	width: 520px;
+	height: 500px;
+}
+.background-containerBlue {
+	background-color: #b8d8ec;
+	height: 500px;
+	width: 70%;
 }
 .Strand {
 	display: flex;
@@ -153,4 +158,12 @@
 	margin-top: -130px;
 	align-items: center;
 	z-index: 1;
+}
+.categorie {
+	display: flex;
+	align-items: center;
+}
+.categorie span {
+	margin-left: 20px;
+	rotate: 90deg;
 }

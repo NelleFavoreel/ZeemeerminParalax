@@ -4,6 +4,7 @@ import "./Fairy.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 <link rel="preconnect" href="https://fonts.googleapis.com"></link>;
 <link rel="preconnect" href="https://fonts.googleapis.com"></link>;
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />;
 
 //import pages
 import HomePage from "./pages/Homepage";

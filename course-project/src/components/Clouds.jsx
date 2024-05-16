@@ -24,10 +24,10 @@ function Clouds() {
 	const [refSlideIn1, slideIn2] = useInView(
 		() => ({
 			from: {
-				transform: "translateX(90%)",
+				transform: "translateX(100%)",
 			},
 			to: {
-				transform: "translateX(20%)",
+				transform: "translateX(30%)",
 			},
 			config: {
 				tension: 10,
@@ -41,7 +41,7 @@ function Clouds() {
 	const [refSlideIn3, slideIn3] = useInView(
 		() => ({
 			from: {
-				transform: "scale(0%)",
+				transform: "scale(10%)",
 			},
 			to: {
 				transform: "scale(170%)",

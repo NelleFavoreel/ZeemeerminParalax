@@ -11,6 +11,12 @@ h1 {
 body {
 	background-image: url("../src/assets/mainBackground.png");
 }
+
+.buttonClass button,
+label,
+.sortProject button {
+	font-family: "Open Sans", sans-serif;
+}
 /* Homepage css*/
 .search {
 	display: flex;
@@ -164,4 +170,7 @@ body {
 }
 .carousel {
 	margin-bottom: 70px;
+}
+.parallax {
+	background-color: white;
 }
