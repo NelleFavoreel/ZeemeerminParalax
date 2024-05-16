@@ -16,7 +16,7 @@ import MyProject from "./pages/MyProject";
 function App() {
 	return (
 		<>
-			<BrowserRouter basename="/">
+			<BrowserRouter basename="/{frontend-courseproject}">
 				<Routes>
 					<Route path="/" element={<Layout />}>
 						<Route index element={<HomePage />} />
