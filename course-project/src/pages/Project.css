@@ -167,3 +167,17 @@
 	margin-left: 20px;
 	rotate: 90deg;
 }
+.video video {
+	width: 800px;
+}
+.extraBeeld {
+	width: 10%;
+}
+.heksExtra {
+	width: 20%;
+}
+.flex2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

@@ -1,5 +1,10 @@
 import { Outlet, Link } from "react-router-dom";
 import picture from "../assets/BeginPicture.jpg";
+import video from "../assets/filmpje nelle.mp4";
+import Zeemeermin from "../assets/zeemeermin.png";
+import prins from "../assets/land prins.png";
+import heks from "../assets/heks.png";
+import meisje from "../assets/meisje.png";
 function MakingPage() {
 	return (
 		<div>
@@ -22,7 +27,21 @@ function MakingPage() {
 			</div>
 			<div className="video">
 				<h1>Video</h1>
-				<h2>Komt nog</h2>
+				<video controls width="600" height="400">
+					<source src={video} type="video/mp4" />
+					Jouw browser ondersteunt de video tag niet.
+				</video>
+			</div>
+			<div>
+				<div className="video">
+					<h1>Extra beeld materiaal</h1>
+				</div>
+				<div className="flex2">
+					<img className="heksExtra" src={Zeemeermin} alt="" />
+					<img className="heksExtra" src={prins} alt="" />
+					<img className="extraBeeld" src={heks} alt="" />
+					<img className="heksExtra" src={meisje} alt="" />
+				</div>
 			</div>
 			<div>
 				<div className="footer">

@@ -1,157 +1,152 @@
 [
-	{
-		"Student": "Taysir Alshahrour",
-		"Link sprookjessite": "https://ehb-mct.github.io/frontend-courseproject-Taysir96/",
-		"Beschrijving project": null
-	},
-	{
-		"Student": "Stephen Asante",
-		"Link sprookjessite": "https://probable-enigma-yrq581q.pages.github.io/",
-		"Beschrijving project": null
-	},
-	{
-		"Student": "Youssef Auassar",
-		"Link sprookjessite": null,
-		"Beschrijving project": null,
-		"popular": true
-	},
-	{
-		"Student": "Maxime Bastien",
-		"Link sprookjessite": "https://ehb-mct.github.io/frontend-courseproject-Maxime122004/HansGrietje",
-		"Beschrijving project": null
-	},
-	{
-		"Student": "Kobe Berckmans",
-		"Link sprookjessite": "https://github.com/EHB-MCT/frontend-courseproject-KobeBerckmans",
-		"Beschrijving project": "Klein duimpje"
-	},
-	{
-		"Student": "Jonathan Bruffaerts",
-		"Link sprookjessite": null,
-		"Beschrijving project": null,
-		"popular": true
-	},
-	{
-		"Student": "Mikolaj Buelens",
-		"Link sprookjessite": "https://ehb-mct.github.io/frontend-courseproject-mikolajbuelens/",
-		"Beschrijving project": "De wolf en de zeven geitjes"
-	},
-	{
-		"Student": "Robbe De Clerck",
-		"Link sprookjessite": "https://github.com/EHB-MCT/frontend-courseproject-RobbeDeClerck",
-		"Beschrijving project": null,
-		"popular": true
-	},
-	{
-		"Student": "Zani Dobruna",
-		"Link sprookjessite": null,
-		"Beschrijving project": null
-	},
-	{
-		"Student": "Wail El Majdoubi",
-		"Link sprookjessite": "https://github.com/EHB-MCT/frontend-courseproject-Wail-ELM",
-		"Beschrijving project": "Beauty and the Beast"
-	},
-	{
-		"Student": "Nelle Favoreel",
-		"Link sprookjessite": "https://scaling-adventure-yrzmqkw.pages.github.io/",
-		"Beschrijving project": "De kleine zeemeermin",
-		"popular": true
-	},
-	{
-		"Student": "Ines Frederickx",
-		"Link sprookjessite": null,
-		"Beschrijving project": null
-	},
-	{
-		"Student": "Jorbe Geys",
-		"Link sprookjessite": null,
-		"Beschrijving project": null
-	},
-	{
-		"Student": "Rémy Gistelinck",
-		"Link sprookjessite": "https://symmetrical-invention-lnjqp56.pages.github.io/",
-		"Beschrijving project": null,
-		"popular": true
-	},
-	{
-		"Student": "Taha Hasan",
-		"Link sprookjessite": "https://ehb-mct.github.io/frontend-courseproject-tahahasan7/",
-		"Beschrijving project": "Raponsje"
-	},
-	{
-		"Student": "Thomas Heusdens",
-		"Link sprookjessite": "https://friendly-eureka-93rngw4.pages.github.io/",
-		"Beschrijving project": null
-	},
-	{
-		"Student": "Milan Langhendries",
-		"Link sprookjessite": "https://upgraded-train-n84y6yw.pages.github.io/",
-		"Beschrijving project": null
-	},
-	{
-		"Student": "Naïl L'Maimouni",
-		"Link sprookjessite": null,
-		"Beschrijving project": null
-	},
-	{
-		"Student": "Joel Lopez Mendez",
-		"Link sprookjessite": "https://literate-broccoli-yrqokmg.pages.github.io/",
-		"Beschrijving project": null
-	},
-	{
-		"Student": "Ernest Marot",
-		"Link sprookjessite": null,
-		"Beschrijving project": null
-	},
-	{
-		"Student": "Glory Menga",
-		"Link sprookjessite": "https://friendly-eureka-374rmg8.pages.github.io/",
-		"Beschrijving project": null
-	},
-	{
-		"Student": "Naomi Quist",
-		"Link sprookjessite": null,
-		"Beschrijving project": null
-	},
-	{
-		"Student": "Michaël Stoikos",
-		"Link sprookjessite": "https://ehb-mct.github.io/frontend-courseproject-MichaelStoikos",
-		"Beschrijving project": null
-	},
-	{
-		"Student": "Jochen Sunaert",
-		"Link sprookjessite": "https://ehb-mct.github.io/frontend-courseproject-JochenSunaert/repelsteeltje",
-		"Beschrijving project": "Repelsteeltje"
-	},
-	{
-		"Student": "Yassine Tazi",
-		"Link sprookjessite": "https://urban-adventure-z4jmzpk.pages.github.io",
-		"Beschrijving project": "De Kikker en de Os."
-	},
-	{
-		"Student": "Berkay Unutkan",
-		"Link sprookjessite": "https://studious-adventure-rr7p15v.pages.github.io",
-		"Beschrijving project": null
-	},
-	{
-		"Student": "Tuur Van Bergen",
-		"Link sprookjessite": null,
-		"Beschrijving project": null
-	},
-	{
-		"Student": "Rachelle van Uden",
-		"Link sprookjessite": "https://glowing-guide-p8mq8g9.pages.github.io/",
-		"Beschrijving project": "De drie biggetjes"
-	},
-	{
-		"Student": "Karsten Verherstraeten",
-		"Link sprookjessite": "https://reimagined-chainsaw-22ro7zz.pages.github.io/",
-		"Beschrijving project": "Aladdin"
-	},
-	{
-		"Student": "Maxim Westerbeek",
-		"Link sprookjessite": null,
-		"Beschrijving project": null
-	}
+    {
+        "Student": "Taysir Alshahrour",
+        "Link sprookjessite": "https://ehb-mct.github.io/frontend-courseproject-Taysir96/",
+        "Beschrijving project": "roodkapje"
+    },
+    {
+        "Student": "Stephen Asante",
+        "Link sprookjessite": "https://probable-enigma-yrq581q.pages.github.io/",
+        "Beschrijving project": null
+    },
+    {
+        "Student": "Youssef Auassar",
+        "Link sprookjessite": "https://ehb-mct.github.io/web2-course-project-front-end-YoussefAuassar/",
+        "Beschrijving project": "Ali baba en de veertig rovers"
+    },
+    {
+        "Student": "Maxime Bastien",
+        "Link sprookjessite": "https://ehb-mct.github.io/frontend-courseproject-Maxime122004/HansGrietje",
+        "Beschrijving project": "Hans & Grietje"
+    },
+    {
+        "Student": "Kobe Berckmans",
+        "Link sprookjessite": "https://ehb-mct.github.io/frontend-courseproject-KobeBerckmans/parallax",
+        "Beschrijving project": "Klein duimpje"
+    },
+    {
+        "Student": "Jonathan Bruffaerts",
+        "Link sprookjessite": null,
+        "Beschrijving project": null
+    },
+    {
+        "Student": "Mikolaj Buelens",
+        "Link sprookjessite": "https://ehb-mct.github.io/frontend-courseproject-mikolajbuelens/",
+        "Beschrijving project": "De wolf en de zeven geitjes"
+    },
+    {
+        "Student": "Robbe De Clerck",
+        "Link sprookjessite": "https://github.com/EHB-MCT/frontend-courseproject-RobbeDeClerck",
+        "Beschrijving project": null
+    },
+    {
+        "Student": "Zani Dobruna",
+        "Link sprookjessite": "https://ehb-mct.github.io/frontend-courseproject-Zani10/fairytale/Roodkapje",
+        "Beschrijving project": "Roodkapje"
+    },
+    {
+        "Student": "Wail El Majdoubi",
+        "Link sprookjessite": "https://scaling-adventure-yrzmqkw.pages.github.io/",
+        "Beschrijving project": "Beauty and the Beast"
+    },
+    {
+        "Student": "Nelle Favoreel",
+        "Link sprookjessite": "https://ehb-mct.github.io/frontend-courseproject-NelleFavoreel/",
+        "Beschrijving project": "De kleine zeemeermin"
+    },
+    {
+        "Student": "Ines Frederickx",
+        "Link sprookjessite": null,
+        "Beschrijving project": null
+    },
+    {
+        "Student": "Jorbe Geys",
+        "Link sprookjessite": "https://ehb-mct.github.io/frontend-courseproject-JorbeGeys/",
+        "Beschrijving project": "Rapunzel"
+    },
+    {
+        "Student": "Rémy Gistelinck",
+        "Link sprookjessite": "https://ehb-mct.github.io/frontend-courseproject-remygist/",
+        "Beschrijving project": "De Minotaurus"
+    },
+    {
+        "Student": "Taha Hasan",
+        "Link sprookjessite": "https://ehb-mct.github.io/frontend-courseproject-tahahasan7/",
+        "Beschrijving project": "Raponsje"
+    },
+    {
+        "Student": "Thomas Heusdens",
+        "Link sprookjessite": "https://ehb-mct.github.io/frontend-courseproject-ThomasHeusdens/",
+        "Beschrijving project": "The ugly duckling"
+    },
+    {
+        "Student": "Milan Langhendries",
+        "Link sprookjessite": "https://upgraded-train-n84y6yw.pages.github.io/",
+        "Beschrijving project": null
+    },
+    {
+        "Student": "Naïl L'Maimouni",
+        "Link sprookjessite": null,
+        "Beschrijving project": null
+    },
+    {
+        "Student": "Joel Lopez Mendez",
+        "Link sprookjessite": "https://literate-broccoli-yrqokmg.pages.github.io/",
+        "Beschrijving project": null
+    },
+    {
+        "Student": "Ernest Marot",
+        "Link sprookjessite": null,
+        "Beschrijving project": null
+    },
+    {
+        "Student": "Glory Menga",
+        "Link sprookjessite": "https://friendly-eureka-374rmg8.pages.github.io/",
+        "Beschrijving project": "De princess en de erwt"
+    },
+    {
+        "Student": "Naomi Quist",
+        "Link sprookjessite": null,
+        "Beschrijving project": null
+    },
+    {
+        "Student": "Michaël Stoikos",
+        "Link sprookjessite": "https://ehb-mct.github.io/frontend-courseproject-MichaelStoikos",
+        "Beschrijving project": null
+    },
+    {
+        "Student": "Jochen Sunaert",
+        "Link sprookjessite": "https://ehb-mct.github.io/frontend-courseproject-JochenSunaert/repelsteeltje",
+        "Beschrijving project": "Repelsteeltje"
+    },
+    {
+        "Student": "Yassine Tazi",
+        "Link sprookjessite": "https://ehb-mct.github.io/frontend-courseproject-YassineTazi2022/",
+        "Beschrijving project": "De Kikker en de Os."
+    },
+    {
+        "Student": "Berkay Unutkan",
+        "Link sprookjessite": "https://ehb-mct.github.io/frontend-courseproject-BerkayUnutkanEHB/",
+        "Beschrijving project": "De wolf en zeven geiten"
+    },
+    {
+        "Student": "Tuur Van Bergen",
+        "Link sprookjessite": null,
+        "Beschrijving project": null
+    },
+    {
+        "Student": "Rachelle van Uden",
+        "Link sprookjessite": "https://ehb-mct.github.io/frontend-courseproject-RachellevanUden/DeDrieBiggetjes",
+        "Beschrijving project": "De drie biggetjes"
+    },
+    {
+        "Student": "Karsten Verherstraeten",
+        "Link sprookjessite": "https://ehb-mct.github.io/frontend-courseproject-KarstenVerherstraeten/",
+        "Beschrijving project": "Aladdin"
+    },
+    {
+        "Student": "Maxim Westerbeek",
+        "Link sprookjessite": null,
+        "Beschrijving project": null
+    }
 ]
