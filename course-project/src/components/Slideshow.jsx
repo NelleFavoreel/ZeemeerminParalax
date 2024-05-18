@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom"; // Importeer Link van React Router
+import { Link } from "react-router-dom";
 import "../App.css";
 
 function Slideshow({ data }) {
@@ -20,9 +20,9 @@ function Slideshow({ data }) {
 		<div className="slideshow-container">
 			{data.map((item, index) => (
 				<div key={index} className={`slide ${index === currentImageIndex ? "active" : ""}`}>
-					<Link to={`/student/${item.id}`} className="slide-content">
+					<Link to={item["Link sprookjessite"]} className="slide-content">
 						{" "}
-						{/* Verander "item.id" naar de unieke ID van de student */}
+						{/* Gebruik de link uit de API */}
 						<h2 className="student-name">{item.Student}</h2>
 						<p className="project-description">{item["Beschrijving project"]}</p>
 					</Link>
