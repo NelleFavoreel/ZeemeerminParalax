@@ -1,6 +1,7 @@
 import React from "react";
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Slideshow from "../components/Slideshow";
+import Data from "../Data/data.json"; // Importeer de voorbeeldgegevens
 
 function Home() {
 	return (
@@ -9,15 +10,14 @@ function Home() {
 				<input type="text" placeholder="Zoek hier topic" />
 				<div className="categorie">
 					<h3>Categorie</h3>
-					<span class="material-symbols-outlined">arrow_forward_ios</span>
+					<span className="material-symbols-outlined">arrow_forward_ios</span>
 					<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 				</div>
-
 				<button className="button">Zoek</button>
 			</div>
 			<div className="slideshow">
 				<h2>Populair vandaag</h2>
-				<Slideshow />
+				<Slideshow data={Data} />
 				<li className="seeMore">
 					<Link to="/ProjectPage">Zie meer</Link>
 				</li>

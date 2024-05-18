@@ -187,3 +187,39 @@ label,
 	display: flex;
 	justify-content: center;
 }
+.slideshow-container {
+	position: relative;
+	width: 100%;
+	height: 400px;
+	overflow: hidden;
+}
+
+.slide {
+	display: none;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+}
+
+.slide.active {
+	display: block;
+}
+
+.slide-content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color: white;
+}
+
+.student-name {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.project-description {
+	font-size: 16px;
+}
