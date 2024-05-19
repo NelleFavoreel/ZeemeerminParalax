@@ -1,4 +1,4 @@
-# React - De kleinen zeemeermin
+# React - De kleine zeemeermin
 
 This is a starting repository for your React application.
 
@@ -56,7 +56,7 @@ Link waar ik veel van heb gehaald voor mijn website: [Use effect](https://react.
 
 Reden: Ik gebruikte react-spring hooks zoals useSpring en useInView voor animaties en scroll-triggered effecten. Deze hooks maken het eenvoudig om animaties te beheren en te reageren op scroll-gebeurtenissen.
 
-Link waar ik veel van heb gehaald voor mijn website: [React Spring](https://www.react-spring.dev/docs/components/use-spring)
+Link waar ik veel van heb gehaald voor mijn website: [Use in view]([https://www.react-spring.dev/docs/components/use-spring](https://www.npmjs.com/package/react-intersection-observer))
 
 ## Usage
 
