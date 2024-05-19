@@ -65,6 +65,9 @@ Link waar ik veel van heb gehaald voor mijn website: [Use in view]([https://www.
 cd Documents/Nelle/2de\ jaar/semester\ 2/FrontEnd/eindtaak/frontend-courseproject-NelleFavoreel/course-project/
 ```
 ```bash
+npm install
+```
+```bash
 npm run dev
 ```
 Now you can see it on the local host. 
