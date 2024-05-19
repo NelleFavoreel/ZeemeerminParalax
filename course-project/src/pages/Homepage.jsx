@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Slideshow from "../components/Slideshow";
 import Data from "../Data/data.json"; // Importeer de voorbeeldgegevens
-
+import logo from "../assets/logo.png";
 function Home() {
 	return (
 		<div>
@@ -27,16 +27,16 @@ function Home() {
 				<h3>Dit project is een opdracht voor de tweedejaarsstudenten aan de Erasmushogeschool Brussel. Het doel is om een webpagina te maken waarbij elke student een sprookje kiest en er een pagina over maakt met behulp van het parallax-effect.</h3>
 			</div>
 			<div className="footer">
-				<img src="./assets/logo.png" alt="" />
+				<img className="logo" src={logo} alt="" />
 				<ul id="nav">
 					<li>
 						<Link to="/">Home</Link>
 					</li>
 					<li>
-						<Link to="/ProjectPage">Sprookje</Link>
+						<Link to="/MakingPage">Making of</Link>
 					</li>
 					<li>
-						<Link to="/MakingPage">Making of</Link>
+						<Link to="/ProjectPage">Sprookje</Link>
 					</li>
 				</ul>
 			</div>

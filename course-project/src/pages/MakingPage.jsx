@@ -5,6 +5,7 @@ import Zeemeermin from "../assets/zeemeermin.png";
 import prins from "../assets/land prins.png";
 import heks from "../assets/heks.png";
 import meisje from "../assets/meisje.png";
+import logo from "../assets/logo.png";
 function MakingPage() {
 	return (
 		<div>
@@ -45,7 +46,7 @@ function MakingPage() {
 			</div>
 			<div>
 				<div className="footer">
-					<img src="./assets/logo.png" alt="" />
+					<img className="logo" src={logo} alt="" />
 					<ul id="nav">
 						<li>
 							<Link to="/">Home</Link>
